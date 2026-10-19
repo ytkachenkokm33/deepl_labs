@@ -1,0 +1,15 @@
+[project]
+name = "lab2-fraud-threshold"
+version = "1.0.0"
+description = "Вибір порога рішення за асиметричною ціною помилок"
+requires-python = ">=3.12,<3.13"
+dependencies = [
+    "numpy==1.26.4",
+    "pandas==2.2.3",
+    "scikit-learn==1.6.1",
+    "torch==2.2.2",
+    "matplotlib==3.9.4",
+]
+
+[tool.uv]
+package = false

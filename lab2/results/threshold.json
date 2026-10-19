@@ -1,0 +1,7 @@
+{
+  "threshold": 0.031194042414426804,
+  "source": "validation",
+  "rule": "score >= threshold",
+  "cost": "10*FN + FP",
+  "tie_break": "largest threshold"
+}

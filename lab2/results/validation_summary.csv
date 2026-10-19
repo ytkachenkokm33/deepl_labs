@@ -1,0 +1,4 @@
+rule,threshold,TP,FP,FN,TN,C
+standard,0.5,71,9,27,56854,279
+optimal,0.031194042414426804,82,34,16,56829,194
+all_negative,inf,0,0,98,56863,980
