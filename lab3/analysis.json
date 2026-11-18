@@ -1,0 +1,138 @@
+{
+  "effects": {
+    "means": {
+      "scratch": 0.46236478006707965,
+      "frozen": 0.8837657141829945,
+      "unfreeze": 0.8790286037798135
+    },
+    "ranges": {
+      "frozen": 0.010095240174428088,
+      "unfreeze": 0.015235737253013193
+    },
+    "R": 0.015235737253013193,
+    "delta_pre": 0.4214009341159149,
+    "delta_unf": -0.004737110403181033,
+    "total": 0.41666382371273386,
+    "pre_exceeds_noise": true,
+    "unf_exceeds_noise": false
+  },
+  "selected": {
+    "regime": "frozen",
+    "seed": 3,
+    "val_macro_f1": 0.8885955696095422
+  },
+  "test_macro_f1": 0.891912624642122,
+  "test_accuracy": 0.8901464713715047,
+  "accuracy_se": 0.008068685291986602,
+  "confusion_matrix": [
+    [
+      187,
+      2,
+      0,
+      1,
+      2,
+      27
+    ],
+    [
+      0,
+      237,
+      0,
+      0,
+      0,
+      0
+    ],
+    [
+      0,
+      1,
+      215,
+      49,
+      10,
+      2
+    ],
+    [
+      1,
+      0,
+      40,
+      212,
+      10,
+      0
+    ],
+    [
+      2,
+      1,
+      1,
+      1,
+      250,
+      0
+    ],
+    [
+      12,
+      0,
+      0,
+      2,
+      1,
+      236
+    ]
+  ],
+  "errors": [
+    {
+      "index": 713,
+      "file": "20179.jpg",
+      "true": "glacier",
+      "predicted": "mountain",
+      "probability": 0.8772457242012024,
+      "pair_count": 49
+    },
+    {
+      "index": 790,
+      "file": "20116.jpg",
+      "true": "mountain",
+      "predicted": "glacier",
+      "probability": 0.6006904244422913,
+      "pair_count": 40
+    },
+    {
+      "index": 205,
+      "file": "20083.jpg",
+      "true": "buildings",
+      "predicted": "street",
+      "probability": 0.5937619805335999,
+      "pair_count": 27
+    },
+    {
+      "index": 1496,
+      "file": "20353.jpg",
+      "true": "street",
+      "predicted": "buildings",
+      "probability": 0.8439233303070068,
+      "pair_count": 12
+    },
+    {
+      "index": 495,
+      "file": "20243.jpg",
+      "true": "glacier",
+      "predicted": "sea",
+      "probability": 0.8064772486686707,
+      "pair_count": 10
+    }
+  ],
+  "split_sha256": "b29c53c7e41b0c4bb36e54d8ca3a9bcbac11eca96abeab8ba4fbcf5937a160b8",
+  "model_sha256": "8d8e376d34ad1a3c17df96287b43745815d2a3060e79908252e5e81033a540f1",
+  "analysis_provenance": {
+    "commit": "417916ca5564f0e86fb43e07796aad334bf4e807",
+    "dirty": true,
+    "git_note": null,
+    "source_sha256": {
+      "analyze.py": "88bb7fab1c95708c54c6c3f0909a8494d21190fedc20a8e47e663f68fdad032b",
+      "common.py": "0d118865866339702667a7d3022410c64869b103177da9fee3e6982573aaa8d1",
+      "train.py": "2361818a616be8394a8525fc5bf5557208d323dff4f4071d58da6ba3b811244f"
+    },
+    "python": "3.12.1",
+    "torch": "2.2.2+cpu",
+    "torchvision": "0.17.2+cpu",
+    "numpy": "1.26.4",
+    "platform": "Windows-11-10.0.26200-SP0",
+    "processor": "AMD64 Family 25 Model 80 Stepping 0, AuthenticAMD",
+    "threads": 6
+  }
+}

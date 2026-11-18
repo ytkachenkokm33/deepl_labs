@@ -1,0 +1,6 @@
+split.csv -text
+*.pt binary
+*.npy binary
+*.docx binary
+*.png binary
+training_source/*.py -text
